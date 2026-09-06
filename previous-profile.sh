@@ -11,4 +11,4 @@
 
 script_dir=${0:A:h}
 open -a Helium
-osascript "$script_dir/switch-profile.applescript" previous Helium
+osascript "$script_dir/switch-profile.applescript" previous Helium >/dev/null
